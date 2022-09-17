@@ -9,6 +9,7 @@ function Counter({initialCount}) {
   return (
     <div className='body'>
       <h1>Count: {count}</h1>
+      <h2>Test</h2>
       <br /> 
       <button onClick={() => setCount(initialCount)}>Reset</button>
       <button onClick={() => setCount(prevCount => prevCount - 1)}>-</button>
